@@ -17,7 +17,7 @@
  * https://en.wikipedia.org/wiki/Linear_search
  * */
 clibx_bool linear_search(int arr[], int target, size_t size) {
-	for (int i = 0; i < size; i++) {
+	for (size_t i = 0; i < size; i++) {
 		if(arr[i] == target) {
 			return i;
 		}
@@ -28,5 +28,6 @@ clibx_bool linear_search(int arr[], int target, size_t size) {
 int main() {
 	int arr[] = {1, 2, 3, 4};
 	int result = linear_search(arr, 3, ARRAY_SIZE(arr));
+    PRINT(result);
 	return 0;
 }
