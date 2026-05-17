@@ -35,7 +35,7 @@ All algorithms use the `clibx.h` header, which provides utility macros and funct
 | Algorithm | File | Best | Average | Worst | Space |
 |-----------|------|------|---------|-------|-------|
 | Fibonacci (iterative) | `fibonacci.c` | O(1) | O(n) | O(n) | O(1) |
-| Fibonacci (recursive) | `fibonacci.c` | O(1) | O(2^n) | O(2^n) | O(n) |
+| Fibonacci (recursive) | `fibonacci.c` | O(1) | O(2<sup>n</sup>) | O(2<sup>n</sup>) | O(n) |
 | Factorial (iterative) | `factorial.c` | O(1) | O(n) | O(n) | O(1) |
 | Factorial (recursive) | `factorial.c` | O(1) | O(n) | O(n) | O(n) |
 
